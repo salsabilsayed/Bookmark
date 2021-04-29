@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="container">
+        <h1 class="my-5">Bookmarker</h1>
+        <section class="">
+            <div class="text-center main py-5 my-4">
+                <h3 class="mb-4">Bookmark your favorite sites</h3>
+                <div class="form-group w-75 mx-auto">
+                    <label for="siteName">Site Name</label>
+                    <input type="text" id="siteName"  class="form-control" placeholder = "Bookmark Name">
+                    <div id="alert1" class="d-none">
+                        <p class="Alert mt-3 py-1">Name should start with upper-case letter and consist only of one word</p>
+                    </div>
+                </div>
+                <div class="form-group w-75 mx-auto">
+                    <label for="siteUrl">Site URL</label>
+                    <input type="text" id="siteUrl"  class="form-control" placeholder = "website URL">
+                    <div id="alert2" class="d-none">
+                        <p class="Alert mt-3 py-1">Site url should start with http://www or https://www</p>
+                    </div>
+                </div>
+                <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+            </div>
+
+            <div id="itemtable" class="d-flex  flex-wrap">
+
+            </div>
+        </section>
+
+        <footer class="my-5">
+            <p>&copy; 2019 Bookmarker Inc.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+h1{
+    color:#aaa;
+    font-size: 30px;
+}
+.main{
+    background-color: rgb(228, 228, 228);
+}
+
+section{
+    border-top: 1px solid rgba(102, 102, 102, 0.685);
+    border-bottom: 1px solid rgba(102, 102, 102, 0.685);
+}
+label{
+    font-weight: bold;
+}
+.bg-row{
+    background-image: linear-gradient(rgb(228, 228, 228), #fff);
+}
+
+.Alert{
+    background-color: rgb(240, 133, 133);
+    border: thin solid rgb(117, 18, 18);
+    color:rgb(117, 18, 18);
+    border-radius: 3px;
+}
+
+footer p{
+    color: #aaa;
+}
